@@ -1,0 +1,4 @@
+<command> ::= <device> <action> | <device> <action> <value> | EXIT
+<device> ::= "light" | "gate" | "temperature"
+<action> ::= "on" | "off" | "set"
+<value> ::= NUMBER

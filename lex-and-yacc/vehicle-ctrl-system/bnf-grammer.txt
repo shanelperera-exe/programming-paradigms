@@ -1,0 +1,4 @@
+<command> ::= <component> <action> | <component> <action> <value> | EXIT
+<component> ::= "engine" | "doors" | "lights" | "speed"
+<action> ::= "start" | "stop" | "lock" | "unlock" | "on" | "off" | "set"
+<value> ::= NUMBER
