@@ -1,0 +1,26 @@
+BEGIN
+  INT score;
+  STRING grade;
+
+  WHILE TRUE DO
+    print(("Enter score (0-100) or -1 to exit: "));
+    read(score);
+
+    IF score = -1 THEN
+      print(("Program terminated.", new line));
+      break
+    FI;
+
+    IF score >= 90 THEN grade := "A+"
+    ELIF score >= 80 THEN grade := "A"
+    ELIF score >= 70 THEN grade := "B+"
+    ELIF score >= 60 THEN grade := "B"
+    ELIF score >= 50 THEN grade := "C+"
+    ELIF score >= 40 THEN grade := "C"
+    ELSE grade := "F"
+    FI;
+
+    print(("Score: ", score, ",  Grade: ", grade, new line))
+  OD
+END
+
