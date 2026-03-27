@@ -1,0 +1,72 @@
+V "GNAT Lib v13"
+P ZX
+
+RN
+RV NO_IO
+
+U generic_queue%b	generic_queue.adb	a906f665 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U generic_queue%s	generic_queue.ads	1e9d0bba BN EE NE OO PK GE
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D generic_queue.ads	20260327054635 1e9d0bba generic_queue%s
+D generic_queue.adb	20260327054654 ebb79c8c generic_queue%b
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-parame.ads		20251218205951 1f39ba92 system.parameters%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+G a e
+G c Z s b [generic_queue standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 787e16 12|1w10 1r27
+566U14*Put_Line 12|8s10 18s10 28s10 30s10
+X 11 generic_queue.ads
+2+9 Element_Type 3r35 8r47 9r48 14r48 12|5r47 15r48
+3U19 Put_Item 3>28 12|32s13
+3*28 X{2+9}
+5k9*Generic_Queue 2z9 3z19 13E4 21l5 21e18 12|3b14 37l5 37t18
+6R9*Queue 8r33 9r33 10r29 16c9 20e14 12|5r33 15r33 25r29
+8U14*Enqueue 8=22 8>40 12|5b14 13l8 13t15
+8r22 Q{6R9} 12|5b22 7r10 10m10 10r20 11m10 11r17
+8*40 X{2+9} 12|5b40 11r28
+9U14*Dequeue 9=22 9<40 12|15b14 23l8 23t15
+9r22 Q{6R9} 12|15b22 17r10 17r20 20r15 20r22 21m10 21r21
+9*40 X{2+9} 12|15b40 20m10
+10U14*Display 10>22 12|25b14 35l8 35t15
+10r22 Q{6R9} 12|25b22 27r10 27r20 31r19 31r30 32r22
+13i4 Max_Size{integer} 14r35 12|7r19
+14A9 Queue_Array(2+9)<integer> 17r15
+17a7 Data{14A9} 12|11m12 20r17 32r24
+18i7 Front{integer} 12|17r12 20r24 21m12 21r23 27r12 31r21
+19i7 Rear{integer} 12|7r12 10m12 10r22 11r19 17r22 27r22 31r32
+X 12 generic_queue.adb
+31i14 I{integer} 32r29
+
